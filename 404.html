@@ -6,8 +6,8 @@
   <meta http-equiv="refresh" content="0;url=/#404">
   <script>
     // Redirect to the hash route corresponding to the current path
-    var path = window.location.pathname;
-    window.location.replace('/#' + path);
+    var path = window.location.pathname.replace('/VueDeployTest', '');
+    window.location.replace('/VueDeployTest/#' + path);
   </script>
   <title>Page Not Found</title>
 </head>
